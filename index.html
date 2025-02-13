@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the word</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <h1>Guess The Word</h1>
+            <div class="game-container">
+                <div class="game-area">
+                    <div class="inputs">
+                    </div>
+                    <div class="controls">
+                        <button>Check Word</button>
+                        <button><span>2</span>Hint</button>
+                    </div>
+                </div>
+                <div class="keys">
+                    <h2>Keys</h2>
+                    <ul>
+                        <li style="--box-color:#f79c10">
+                            <div></div>
+                            <span>Letter is Right and in place</span>
+                        </li>
+                        <li style="--box-color:#12ba83">
+                            <div></div>
+                            <span>Letter is Right but not in place</span>
+                        </li>
+                        <li style="--box-color:#292f3f">
+                            <div></div>
+                            <span>Letter is Wrong and not in place</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
